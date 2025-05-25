@@ -6,9 +6,9 @@ Ball game is a unreal multiplayer project made with Unreal 5_5.
 
 First install Unreal Engine 5.5.
 
-On Linux: https://www.unrealengine.com/en-US/linux 
-On Windows:
-https://www.unrealengine.com/fr/download
+On Linux: https://www.unrealengine.com/en-US/linux
+
+On Windows: https://www.unrealengine.com/fr/download
 
 You can also build from source from the github repository :https://github.com/EpicGames/UnrealEngine (need to be in the Epic Games organization)
 
