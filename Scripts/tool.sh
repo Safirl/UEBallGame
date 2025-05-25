@@ -1,5 +1,6 @@
 #!/bin/bash
 cd "$(dirname "$0")/.."
+echo "$UE_5_5_DIR"
 enginedir="${UE_ENGINE_DIR:-/opt/UnrealEngine/Engine}"
 projectfile=$(ls . | grep ".uproject")
 projectname="${projectfile%.*}"
@@ -56,7 +57,7 @@ esac
 # gen solution
 if [ $GEN -ne 0 ]
 then
-$enginedir/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool -projectfiles -vscode -project=$projectfile -game -engine
+$enginedir/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool -projectfiles -vscode -project=$projectfilepath -game -engine
 fi
 
 # run editor project
